@@ -1,0 +1,48 @@
+
+.header {
+    width: 100%;
+    background: darkseagreen;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.match {
+    color:#4CBB17;
+    font-weight: 700;
+}
+
+.autocomplete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchInput {
+    height: 20px;
+    min-width: 500px;
+}
+
+ .options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 80px;
+}
+
+.option {
+    border: 2px solid darkseagreen;
+    border-radius: 10px;
+    padding: 10px;
+    min-height: 30px;
+    width: 500px;
+}
+
+.option:hover {
+    cursor: pointer;
+    background-color: #f0f0f0
+}
+
